@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "clickutils",
+  "version": "${version}",
+  "name": "GayBoi5000",
+  "description": "Meteor-style in-game Click GUI for CheatUtils (localhost API).",
+  "authors": ["Lucas"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.lucas.clickutils.ClickUtilsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
